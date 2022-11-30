@@ -3,25 +3,23 @@
 
 <html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="/Parking_files/bootstrap.min.css">
-<link rel="stylesheet" href="/Parking_files/style.css">
-<title>Case study</title>
-<link href="http://parking.sarsetech.com/assets/images/favicon.png" rel="icon">
-<script src="/Parking_files/jquery-3.3.1.min.js.download"></script>
-<script src="/Parking_files/bootstrap.bundle.js.download"></script>
-<script src="/Parking_files/main-js.js.download"></script>
-<script src="/Parking_files/extra.js.download"></script>
-<link rel="stylesheet" href="/Parking_files/free.min.css" media="all">
-<link rel="stylesheet" href="/Parking_files/free.min(1).css" media="all">
-<script src="/Parking_files/select2.min.js.download" type="text/javascript"></script>
-<script src="/assets/js/raphael-min.js"></script>
-<script src="/assets/js/morris.min.js"></script>
-<link href="/Parking_files/select2.min.css" rel="stylesheet" type="text/css">
-<link href="/css/barchart.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="/assets/css/morris.css">
-</head>
+<link rel="icon" href="<?php echo base_url()."/assets/images/favicon.png"?>" type="image/png">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/bootstrap.min.css?v3"?>">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/style.css?v27"?>">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/swiper-bundle.min.css"?>">
+<title>Case Study</title>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/jquery-3.3.1.min.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/bootstrap.bundle.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/main-js.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/extra.js.download"?>"></script>
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/free.min.css"?>" media="all">
+<script src="<?php echo base_url()."/assets_admin/Parking_files/tinymce.min.js"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/swiper-bundle.min.js"?>"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+<script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+    </head>
 <body>
 <!-- main wrapper -->
 <div class="dashboard-main-wrapper"> 

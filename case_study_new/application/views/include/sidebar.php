@@ -6,9 +6,9 @@
           <ul class="navbar-nav flex-column">
 
             <li class="nav-divider"> Welcome ADMIN</li>
-             <li class="nav-item"> <a class="nav-link" href="/Admin/dashboard"><i class='fas fa-address-card' style='font-size:18px;color:white'></i>Dashboard</a> </li>
+             <li class="nav-item"> <a class="nav-link" href="<?php echo base_url()."/Admin/dashboard"?>"><i class='fas fa-address-card' style='font-size:18px;color:white'></i>Dashboard</a> </li>
             
-              <li class="nav-item"> <a class="nav-link" href="/Admin/manage_movies"><i class='fas fa-users' style='font-size:18px;color:white'></i>Manage Movie schema</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="<?php echo base_url()."/Admin/manage_movies"?>"><i class='fas fa-users' style='font-size:18px;color:white'></i>Manage Movie schema</a> </li>
               
 
 

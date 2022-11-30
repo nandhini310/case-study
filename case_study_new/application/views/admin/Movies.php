@@ -3,18 +3,18 @@
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="icon" href="/assets/images/favicon.png" type="image/png">
-<link rel="stylesheet" href="/assets_admin/Parking_files/bootstrap.min.css?v3">
-<link rel="stylesheet" href="/assets_admin/Parking_files/style.css?v27">
-<link rel="stylesheet" href="/assets_admin/Parking_files/swiper-bundle.min.css">
+<link rel="icon" href="<?php echo base_url()."/assets/images/favicon.png"?>" type="image/png">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/bootstrap.min.css?v3"?>">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/style.css?v27"?>">
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/swiper-bundle.min.css"?>">
 <title>Case Study</title>
-<script src="/assets_admin/Parking_files/jquery-3.3.1.min.js.download"></script>
-<script src="/assets_admin/Parking_files/bootstrap.bundle.js.download"></script>
-<script src="/assets_admin/Parking_files/main-js.js.download"></script>
-<script src="/assets_admin/Parking_files/extra.js.download"></script>
-<link rel="stylesheet" href="/assets_admin/Parking_files/free.min.css" media="all">
-<script src="/assets_admin/Parking_files/tinymce.min.js"></script>
-<script src="/assets_admin/Parking_files/swiper-bundle.min.js"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/jquery-3.3.1.min.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/bootstrap.bundle.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/main-js.js.download"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/extra.js.download"?>"></script>
+<link rel="stylesheet" href="<?php echo base_url()."/assets_admin/Parking_files/free.min.css"?>" media="all">
+<script src="<?php echo base_url()."/assets_admin/Parking_files/tinymce.min.js"?>"></script>
+<script src="<?php echo base_url()."/assets_admin/Parking_files/swiper-bundle.min.js"?>"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
 <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
     </head>
@@ -214,9 +214,9 @@
   </div>
   <!-- end wrapper  --> 
 </div>
-<script src="/js/sweetalert2.all.min.js"></script>
-<script src="/js/sweetalert.js"></script>
-<script src="/js/popper.min.js"></script>
+<script src="<?php echo base_url()."/js/sweetalert2.all.min.js"?>"></script>
+<script src="<?php echo base_url()."/js/sweetalert.js"?>"></script>
+<script src="<?php echo base_url()."/js/popper.min.js"?>"></script>
 <script type="text/javascript">
      $('.close').click(function() {
   
@@ -232,7 +232,7 @@
 $(document).ready(function() {
     $('#book-table').DataTable({
         "ajax": {
-            url : "/Admin/fetch_order_data" ,
+            url : "<?php echo base_url()."/Admin/fetch_order_data"?>" ,
             type : 'GET'
         },
     });
@@ -253,7 +253,7 @@ $(document).ready(function() {
     var frmdata = $("#add_category").serialize();
       $.ajax({ 
         type: "POST",
-        url: "/Admin/add_movie",
+        url: "<?php echo base_url()."/Admin/add_movie"?>",
         data: frmdata,
         dataType:"JSON",
         success: function(data) {
@@ -284,7 +284,7 @@ $(document).ready(function() {
     var frmdata = $("#update_category").serialize();
       $.ajax({ 
         type: "POST",
-        url: "/Admin/update_movie",
+        url: "<?php echo base_url()."/Admin/update_movie"?>",
         data: frmdata,
         dataType:"JSON",
         success: function(data) {
@@ -315,7 +315,7 @@ $(document).ready(function() {
            if(confirm("Are you sure you want to delete this?"))  
            {  $(".spinner-wrapper-lite").fadeIn();
                 $.ajax({  
-                     url:"/admin/delete_movie",  
+                     url:"<?php echo base_url()."/admin/delete_movie"?>",  
                      method:"POST",  
                      data:{user_id:user_id},  
                      success:function(data)  

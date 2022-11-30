@@ -3,18 +3,16 @@
       <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="/Parking_files/bootstrap.min.css">
-      <link rel="stylesheet" href="/login/style.css">
+      <link rel="stylesheet" href="<?php echo base_url()."/Parking_files/bootstrap.min.css";?>">
+      <link rel="stylesheet" href="<?php echo base_url()."/login/style.css"?>">
       <title>Case study</title>
-      <link href="http://parking.sarsetech.com/assets/images/favicon.png" rel="icon">
-      <script src="/Parking_files/jquery-3.3.1.min.js.download"></script>
-      <script src="/Parking_files/bootstrap.bundle.js.download"></script>
-      <script src="/Parking_files/main-js.js.download"></script>
-      <script src="/Parking_files/extra.js.download"></script>
-      <link rel="stylesheet" href="/Parking_files/free.min.css" media="all">
-      <script src="/Parking_files/select2.min.js.download" type="text/javascript"></script>
-      <link href="/Parking_files/select2.min.css" rel="stylesheet" type="text/css">
-   
+      <script src="<?php echo base_url()."/Parking_files/jquery-3.3.1.min.js.download"?>"></script>
+      <script src="<?php echo base_url()."/Parking_files/bootstrap.bundle.js.download"?>"></script>
+      <script src="<?php echo base_url()."/Parking_files/main-js.js.download"?>"></script>
+      <script src="<?php echo base_url()."/Parking_files/extra.js.download"?>"></script>
+      <link rel="stylesheet" href="<?php echo base_url()."/Parking_files/free.min.css"?>" media="all">
+      </head>
+
 
 <style>
 html,  body {
@@ -121,7 +119,7 @@ body {
 <div class="splash-container">
       <div class="card ">
     <div class="card-header text-center" >
-      <img src="/images/login_icon.png" alt="Login"  /></div>
+      <img src="<?php echo base_url()."/images/login_icon.png"?>" alt="Login"  /></div>
      
     <div class="card-body">
        <h5>Register</h5>
@@ -204,7 +202,7 @@ confirm_password.onkeyup = validatePassword;
  $(".spinner-wrapper-lite").fadeIn(); 
     $.ajax({ 
       type: "POST",
-      url: "/Admin/register_form",
+      url: "<?php echo base_url()."/Admin/register_form"?>",
       data: frmdata,
       dataType:"JSON", 
       async:false,  

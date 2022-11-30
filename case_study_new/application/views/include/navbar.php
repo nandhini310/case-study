@@ -1,14 +1,14 @@
  <div class="dashboard-header">
     <nav class="navbar navbar-expand-lg bg-white fixed-top"> <h2 ></h2>
       <div class="dd_myprofile">
-      <div class="btn-group"> <img src="/Parking_files/icon_myprofile.png" alt="" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+      <div class="btn-group"> <img src="<?php echo base_url()."/Parking_files/icon_myprofile.png"?>" alt="" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
         <div class="dropdown-menu dropdown-menu-right  ">
            
           <h5 class="dropdown_h5">Admin User</h5>
           
 
            
-          <a class="dropdown-item" href="/Admin/logout" type="button">Logout</a>
+          <a class="dropdown-item" href="<?php echo base_url()."/Admin/logout"?>" type="button">Logout</a>
         </div>
       </div>
       </div>
