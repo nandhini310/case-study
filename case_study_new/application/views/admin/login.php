@@ -193,7 +193,7 @@ body {
        //console.log(data.message['terminal_name']);
        
         if(data.status=="success"){
-           window.location = "/Admin/dashboard";
+           window.location = "<?php echo base_url()."/Admin/dashboard"?>";
         
 
         } 
