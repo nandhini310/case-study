@@ -171,7 +171,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     $r->movie_name,
                     $r->rating,
                     $r->release_date,
-                    '<a href="#" class="update" data-id='.$r->movie_id.' data-movie_name='.$r->movie_name.' data-rating='.$r->rating.' data-release_date='.$r->release_date.' data-toggle="modal" data-target="#update_category_popup"><img src="/assets_admin/Parking_files/icon_edit.png?v2" alt="Edit"></a>',
+                    '<a href="#" class="update" data-id='.$r->movie_id.' data-movie_name='.$r->movie_name.' data-rating='.$r->rating.' data-release_date='.$r->release_date.' data-toggle="modal" data-target="#update_category_popup"><img src="'.$this->config->item('base_url').'/assets_admin/Parking_files/icon_edit.png?v2" alt="Edit"></a>',
                    "<button type='button' name='delete' id=".$r->movie_id." class='btn btn-danger btn-xs delete'>Delete</button>"
                );
           }
